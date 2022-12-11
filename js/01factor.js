@@ -8,9 +8,9 @@ let items2 = new Set()
 // 全部除數loop一遍
 // for (let divisor = 1; divisor <= num; divisor++) {
 //     quotient = num / divisor;
-//     // 1是任意數的因數
+//     // 除數1是任意數的因數
 //     // %1===0 商為整數
-//     if (quotient === 1 || quotient % 1 === 0) {
+//     if (quotient % 1 === 0) {
 //         items.push(divisor)
 //     }
 // }
@@ -23,7 +23,7 @@ for (let divisor = 1; divisor <= num; divisor++) {
     quotient = num / divisor;
     // 1是任意數的因數
     // %1===0 商為整數
-    if (quotient === 1 || quotient % 1 === 0) {
+    if (quotient % 1 === 0) {
         items2.add(divisor)     // 除數
         items2.add(quotient)    // 商數
 
