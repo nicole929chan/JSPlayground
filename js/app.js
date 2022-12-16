@@ -50,4 +50,15 @@ console.log('enter app.js');
 // findMostPopular();
 // // const p = findMostPopular()
 
+async function useFetch(endpoint) {
+	const result = await fetch(endpoint)
+    .then((value) => value.json())
+    .then((value) => value);
+	return result
+};
+
+let t = useFetch('http://localhost:8001/popular?date=2022-12-16&rank=1')
+console.log(t)
+
+
 console.log('end app.js');
