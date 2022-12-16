@@ -1,0 +1,21 @@
+{
+    "authors": [
+        { "id": 1, "name": "安德斯.艾瑞克森" },
+        { "id": 2, "name": "瑞.達利歐" },
+        { "id": 3, "name": "詹姆斯.克利爾" },
+        { "id": 4, "name": "艾爾文" },
+        { "id": 5, "name": "查理蒙格" }
+    ],
+    "books": [
+        { "id": 1, "title": "原則", "author_id": 2 },
+        { "id": 2, "title": "原子習慣", "author_id": 3 },
+        { "id": 3, "title": "刻意練習", "author_id": 1 },
+        { "id": 4, "title": "窮查理的普通知識", "author_id": 5 }
+    ],
+    "popular": [
+        { "id": 1, "rank": 1, "book_id": 1, "date": "2022-12-16" },
+        { "id": 2, "rank": 2, "book_id": 3, "date": "2022-12-16" },
+        { "id": 3, "rank": 3, "book_id": 2, "date": "2022-12-16" },
+        { "id": 4, "rank": 1, "book_id": 4, "date": "2022-12-09" }
+    ]
+}
